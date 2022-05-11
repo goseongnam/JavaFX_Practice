@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_practice.AlertStackController">
+   <children>
+      <TextField fx:id="txtAlertSet1" layoutX="14.0" layoutY="75.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert1..." />
+      <TextField fx:id="txtAlertSet3" layoutX="14.0" layoutY="137.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert3..." />
+      <TextField fx:id="txtAlertSet5" layoutX="14.0" layoutY="200.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert5..." />
+      <TextField fx:id="txtAlertSet7" layoutX="14.0" layoutY="265.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert7..." />
+      <TextField fx:id="txtAlertSet2" layoutX="268.0" layoutY="75.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert2..." />
+      <TextField fx:id="txtAlertSet4" layoutX="268.0" layoutY="137.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert4..." />
+      <TextField fx:id="txtAlertSet6" layoutX="268.0" layoutY="200.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert6..." />
+      <TextField fx:id="txtAlertSet8" layoutX="268.0" layoutY="265.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert8..." />
+      <TextField layoutX="14.0" layoutY="14.0" prefHeight="50.0" prefWidth="160.0" text="사용자가 설정한 Alert금액" />
+      <Button layoutX="429.0" layoutY="18.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="104.0" text="메인이동" onAction="#moveMain"/>
+      <TextField fx:id="txtAlertSet9" layoutX="14.0" layoutY="325.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert9..." />
+      <TextField fx:id="txtAlertSet10" layoutX="268.0" layoutY="325.0" prefHeight="50.0" prefWidth="160.0" promptText="Alert10..." />
+      <Button fx:id="btnAlertSetRemove" layoutX="216.0" layoutY="18.0" mnemonicParsing="false" onAction="#alertSetRemove" prefHeight="42.0" prefWidth="168.0" text="Alert 설정 삭제" />
+      <CheckBox fx:id="chkAlert1" layoutX="186.0" layoutY="75.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="82.0" text="Alert1" />
+      <CheckBox fx:id="chkAlert2" layoutX="444.0" layoutY="79.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="91.0" text="Alert2" />
+      <CheckBox fx:id="chkAlert3" layoutX="186.0" layoutY="141.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="82.0" text="Alert3" />
+      <CheckBox fx:id="chkAlert5" layoutX="186.0" layoutY="204.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="82.0" text="Alert5" />
+      <CheckBox fx:id="chkAlert7" layoutX="186.0" layoutY="269.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="82.0" text="Alert7" />
+      <CheckBox fx:id="chkAlert9" layoutX="186.0" layoutY="329.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="82.0" text="Alert9" />
+      <CheckBox fx:id="chkAlert4" layoutX="444.0" layoutY="141.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="91.0" text="Alert4" />
+      <CheckBox fx:id="chkAlert6" layoutX="445.0" layoutY="204.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="91.0" text="Alert6" />
+      <CheckBox fx:id="chkAlert8" layoutX="445.0" layoutY="269.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="82.0" text="Alert8" />
+      <CheckBox fx:id="chkAlert10" layoutX="444.0" layoutY="329.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="82.0" text="Alert10" />
+   </children>
+</Pane>

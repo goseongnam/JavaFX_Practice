@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="752.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_practice.MainController">
+   <children>
+      <Button fx:id="btnBookmarkAdd" layoutX="368.0" layoutY="38.0" mnemonicParsing="false" onAction="#btnBookmark" prefHeight="40.0" prefWidth="95.0" text="즐겨찾기 추가" />
+      <ListView fx:id="lstNationalChange" layoutX="25.0" layoutY="27.0" prefHeight="116.0" prefWidth="213.0" />
+      <Button fx:id="btnAlertCheck" layoutX="25.0" layoutY="285.0" mnemonicParsing="false" onAction="#AlertPageMove" prefHeight="48.0" prefWidth="262.0" text="Alert설정 확인" />
+      <Button fx:id="btnEXchange" layoutX="304.0" layoutY="285.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="269.0" text="외환변화" />
+      <ListView fx:id="lstNationalRate" layoutX="25.0" layoutY="161.0" prefHeight="110.0" prefWidth="213.0" />
+      <TextField fx:id="txtAlertInput" layoutX="413.0" layoutY="96.0" prefHeight="40.0" prefWidth="155.0" promptText="알림설정금액 입력..." />
+      <Button fx:id="btnChange" layoutX="262.0" layoutY="38.0" mnemonicParsing="false" onAction="#pageMove" prefHeight="40.0" prefWidth="95.0" text="이동" />
+      <Button fx:id="btnAlert" layoutX="262.0" layoutY="96.0" mnemonicParsing="false" onAction="#alertClick" prefHeight="40.0" prefWidth="142.0" text="Alert 설정" />
+      <Button fx:id="btnCalculateOK" layoutX="485.0" layoutY="196.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="확인"  onAction="#btnChk_Calculate"/>
+      <TextField fx:id="txtExInput" layoutX="262.0" layoutY="168.0" prefHeight="40.0" prefWidth="213.0" promptText="환율 계산 입력..." />
+      <TextField fx:id="txtExOutput" layoutX="262.0" layoutY="222.0" prefHeight="40.0" prefWidth="213.0" promptText="환율 계산 출력..." />
+      <Button fx:id="btnBookmarkMove" layoutX="473.0" layoutY="38.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="95.0" text="즐겨찾기 삭제" />
+      <Button fx:id="btnBookmark1" layoutX="581.0" layoutY="38.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="즐겨찾기1" />
+      <Button fx:id="btnBookmark2" layoutX="581.0" layoutY="103.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="즐겨찾기2" />
+      <Button fx:id="btnBookmark3" layoutX="581.0" layoutY="168.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="즐겨찾기3" />
+      <Button fx:id="btnBookmark4" layoutX="581.0" layoutY="231.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="즐겨찾기4" />
+      <Button fx:id="btnBookmark5" layoutX="581.0" layoutY="293.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="70.0" text="즐겨찾기5" />
+   </children>
+</Pane>
